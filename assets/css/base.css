@@ -1,0 +1,58 @@
+/*Color*/
+:root {
+    --orange-color: #F86338;
+    --app-color: #F4F7F8;
+    --while-color: #FFFFFF;
+    --text-color: #11142D;
+    --decription-text-color: #515151;
+    --title-text-color: #9A9AB0;
+}
+
+*{
+    box-sizing: inherit;
+    margin: 0;
+}
+
+/*CSS cho HTML*/
+html {
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--app-color);
+    box-sizing: border-box;
+}
+
+/*Responsive*/
+.grid {
+    /*Kích thước chiều rộng là 1200px*/
+    width: 1200px;
+    /*Những item nào nằm trong grid sẽ tự động căn giữa*/
+    margin: 0 auto;
+}
+
+/*Dòng trong grid
+- Có nhiều column
+*/
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.grid__column-2{
+    padding: 0 15px;
+    width: 16.66666666666667%;
+}
+
+.grid__column-10{
+    padding: 0 15px;
+    width: 83.33333333333333%;
+}
+
+.grid__column-6{
+    padding: 0 15px;
+    width: 50%;
+}
+
+.grid__column-6-2{
+    padding: 0 15px;
+    width: 50%;
+}
