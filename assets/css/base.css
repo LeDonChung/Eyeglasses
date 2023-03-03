@@ -56,3 +56,50 @@ html {
     padding: 0 15px;
     width: 50%;
 }
+
+/*Footer*/
+.footer {
+    background-color: var(--while-color);
+}
+.footer-content {
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 50px 0;
+
+}
+.footer-content__brand {
+    width: 300px;
+    height: 300px;
+    background-color: #E2E2EA;
+}
+.footer-content__title {
+    
+
+}
+
+.footer-content__title h1{
+    color: var(--orange-color);
+    font-size: 50px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.footer-content__title p{
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-content__title p:last-child{
+    margin: 130px 0 0 0;
+    
+}
+.footer-content__social-media {
+    margin: 20px 0;
+}
+
+/*Hero*/
+
+/*Navbar*/
