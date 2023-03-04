@@ -57,6 +57,23 @@ html {
     width: 50%;
 }
 
+/*Định dạng kiểu button chung*/
+.btn {
+    font-size: 12px;
+    padding: 10px;
+    background-color: var(--orange-color);
+    border-radius: 8px;
+    border: none;
+    color: var(--while-color);
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+
+}
+
+
 /*Footer*/
 .footer {
     background-color: var(--while-color);
@@ -69,8 +86,8 @@ html {
 
 }
 .footer-content__brand {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     background-color: #E2E2EA;
 }
 .footer-content__title {
@@ -80,26 +97,133 @@ html {
 
 .footer-content__title h1{
     color: var(--orange-color);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     margin: 20px 0;
 }
 
 .footer-content__title p{
     color: var(--text-color);
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
 .footer-content__title p:last-child{
-    margin: 130px 0 0 0;
+    margin: 60px 0 0 0;
     
 }
 .footer-content__social-media {
-    margin: 20px 0;
+
+}
+
+.footer-content__social-media-item {
+    margin-right: 20px;
 }
 
 /*Hero*/
 
+.hero {
+    background-color: var(--while-color);
+}
+
+.hero-main {
+    padding: 70px 0;
+    margin: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.hero-title {
+    color: var(--decription-text-color);
+    font-size: 60px;
+    font-weight: 600;
+
+}
+
+.hero-content {
+    color: (--text-color);
+    margin: 30px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*Navbar*/
+
+.navbar{
+    height: 180px;
+    display: flex;
+}
+
+.navbar__brand{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--while-color);
+}
+
+.brand-list{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-right: 5%;
+}
+
+
+.brand-title{
+    width: 70%;
+    font-size: 39px;
+    line-height: 46.8px;
+    color: var(--orange-color);
+    padding-left: 5%;
+}
+
+.navbar__container {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-categories{
+    display: flex;
+    width: 30%;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5%;
+}
+
+#container-search {
+    height: 50px;
+    width: 30%;
+    border-radius: 10;
+    flex: 1;
+}
+
+.container-list{
+    display: flex;
+    width: 30%;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+.container-list-item{
+    padding: 20px;
+}
