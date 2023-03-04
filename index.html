@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
     
     <!--Font Awesome-->
-    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
     
     <!--Reset CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -25,41 +25,63 @@
 </head>
 <body>
     <div class="app">
-        <div class="grid">
-            <div class="grid__row">
-                <div class="grid__column-2" style=" height: 100px;">
-                    1
+        <div class="navbar">
+            <div class="grid">
+                <!--start Navbar-->
+
+                <!--Brand-->
+                <div class="navbar__brand">
+                    <h1 class="brand-title">Eya Glasses</h1>
+                    <ul class="brand-list">
+                        <li class="brand-list-item">
+                            <i class="fa-sharp fa-solid fa-phone logo-icon"></i>
+                            Call Center
+                        </li>
+
+                        <li class="brand-list-item">
+                            <i class="fa-solid fa-truck-fast logo-icon"></i>
+                            Shipping & Returns
+                        </li>
+                    </ul>
                 </div>
-                <div class="grid__column-2">
-                    2
+
+                <!--Search-->
+                <div class="navbar__container">
+                    <ul class="container-categories">
+                        <li class="container-categories-item">Shop</li>
+                        <li class="container-categories-item">Promo</li>
+                        <li class="container-categories-item">About</li>
+                        <li class="container-categories-item">Blog</li>
+                    </ul>
+
+                    <div class="container-search">
+                        <input type="text" placeholder="Search what you need" id="container-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <ul class="container-list">
+                        <li class="container-list-item">
+                            <i class="fa-regular fa-heart"></i>
+                        </li>
+
+                        <li class="container-list-item">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </li>
+
+                        <li class="container-list-item">
+                            <i class="fa-solid fa-user"></i>
+                        </li>
+
+                        <li class="container-list-item">
+                            <i class="fa-regular fa-bell"></i>
+                        </li>
+                        
+                    </ul>
                 </div>
-                <div class="grid__column-2">
-                    3
-                </div>
-                <div class="grid__column-2">
-                    4
-                </div>
-                <div class="grid__column-2">
-                    5
-                </div>
-                <div class="grid__column-2">
-                    5
-                </div>
-                
+
+                <!--End Navbar-->
             </div>
-            <div class="grid__row">
-                <div class="grid__column-6" style=" height: 100px;">
-                    
-                        <div class="grid__column-6-2 style= height: 100px;">
-                            3
-                        </div>
-                   
-                </div>
-                <div class="grid__column-6">
-                    2
-                </div>
-                
-            </div>
+        
         </div>
     </div>
 </body>
