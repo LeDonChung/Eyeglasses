@@ -151,6 +151,62 @@ html {
 }
 
 
+/*Form*/
+.form {
+
+}
+
+.form-content {
+    background-color: var(--while-color);
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-title {
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.form-description {
+    margin: 30px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--decription-text-color);
+}
+
+.form-email {
+    display: flex;
+    background-color: var(--app-color);
+    padding: 12px;
+    border-radius: 8px;
+    width: 60%;
+
+}
+
+.form-email__input {
+    flex: 1;
+    background-color: var(--app-color);
+    outline:none;
+    border: none;
+    font-size: 12px;
+
+}
+
+
+.form-email__submit {
+    
+}
+
+
+
+.form-email__submit-icon {
+    font-size: 12px;
+}
+
 
 
 
