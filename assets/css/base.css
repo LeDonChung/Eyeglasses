@@ -6,6 +6,8 @@
     --text-color: #11142D;
     --decription-text-color: #515151;
     --title-text-color: #9A9AB0;
+    /*Làm mượt*/
+    --smooth: all .3s ease-in;
 }
 
 *{
@@ -76,11 +78,12 @@ html {
     border: none;
     color: var(--while-color);
     cursor: pointer;
+    transition: var(--smooth);
 }
 
 .btn:hover {
     opacity: 0.8;
-
+    transition: var(--smooth);
 }
 
 
