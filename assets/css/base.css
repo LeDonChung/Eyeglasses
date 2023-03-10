@@ -66,7 +66,7 @@ html {
 /*Thanh ngăn cách*/
 .seperate {
     width: 100%;
-    height: 40px;
+    height: 130px;
 }
 
 /*Định dạng kiểu button chung*/
@@ -163,9 +163,11 @@ html {
     color: (--text-color);
     font-size: 16px;
     font-weight: 400;
-    margin: 40px 0;
+    margin: 50px 0;
 }
-
+.btn--find-out-more {
+    padding: 20px;
+}
 
 /*Form*/
 .form {
@@ -319,80 +321,92 @@ html {
 }
 
 .categories__list {
-    margin-top: 30px;
+    margin: 76px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
+.categories-item{
+    transition: var(--smooth);
+}
+
 .categories-item:hover .categories-item-link{
     color: var(--orange-color);
+    transition: var(--smooth);
 }
 
 .categories-item--active .categories-item-link{
     color: var(--orange-color);
+    transition: var(--smooth);
 }
 
 .categories-item-link {
     font-size: 24px;
     text-decoration: none;
     color: var(--title-text-color);
+    font-weight: 600;
 }
 
 
 .categories-product-list {
-    margin: 30px 0;
 }
 
 .product-item {
-
     width: 100%;
     height: 640px;
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     background-color: var(--while-color);
-    padding: 10px;
     align-items: start;
-    margin: 15px 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: var(--smooth);
+    margin-bottom: 30px;
+}
+
+.product-item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .product-item__img {
     width: 100%;
-    height: 400px;
 
 }
 
 .product-item__category {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 16px;
     color: var(--title-text-color);
+    margin-left: 40px;
 }
 
 .product-item__name {
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 48px;
     font-weight: 600;
     color: var(--text-color);
+    margin-left: 40px;
 }
 
 .product-item__btn {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    margin-bottom: 70px;
+    margin-left: 40px;
 
 }
 
 .product-item__icon {
     font-size: 24px;
 }
-
-.categories-find-more {
+.btn--categories-shop {
     display: block;
-    margin: 0 auto;
+    margin: 80px auto;
 }
