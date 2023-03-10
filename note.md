@@ -29,3 +29,13 @@ https://www.w3schools.com/html/html_exercises.asp
 - font-aw
 *Clone project git hub -> xong
 *Create footer, header để ví dụ cho việc làm phần chung
+
+
+-- Một số thủ thuật căn giữa item
+- Nếu đối tượng là thẻ p, i, ...
+text-align: center;
+line-height: chiều cao của đối tượng;
+
+position: absolute;
+transform: translateY(-50%);
+top: 50%;
