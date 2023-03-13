@@ -260,7 +260,6 @@ html {
 .navbar__brand-title{
     font-size: 39px;
     color: var(--orange-color);
-    padding-left: 70px;
 }
 
 .brand-title-text{
@@ -272,7 +271,6 @@ html {
     width: 370px;
     justify-content: space-between;
     align-items: center;
-    padding-right: 70px;
 }
 
 .brand-phoneship-list{
@@ -305,10 +303,9 @@ html {
 .catesearch-category-list{
     list-style: none;
     display: flex;
-    width: 310px;
-    justify-content: space-around;
+    width: 280px;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 60px;
 }
 
 .category-list-item{
@@ -347,14 +344,13 @@ html {
 }
 
 .navbar__catesearch-menu{
-    width: 310px;
+    width: 250px;
 }
 
 .catesearch-list{
     display: flex;
-    width: 310px;
-    justify-content: space-around;
-    padding-right: 60px;
+    width: 250px;
+    justify-content: space-between;
 }
 
 .catesearch-list-item{
