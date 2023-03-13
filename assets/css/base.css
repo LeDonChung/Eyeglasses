@@ -6,6 +6,7 @@
     --text-color: #11142D;
     --decription-text-color: #515151;
     --title-text-color: #9A9AB0;
+    --image-placeholder: #E2E2EA;
     /*Làm mượt*/
     --smooth: all .3s ease-in;
 }
@@ -576,4 +577,99 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+/* Testimonial */
+.testimonial{
+    height: 436px;
+    padding-top: 65px;
+}
+
+.testimonial__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial__card{
+    width: 1160px;
+    height: 436px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--while-color);
+    position: relative;
+}
+
+.testimonial__card-imagePlaceholder{
+    width: 320px;
+    height: 320px;
+    background-color: var(--image-placeholder);
+    border-radius: 8px;
+}
+
+.testimonial__card-text{
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    justify-content: space-around;
+    width: 630px;
+}
+
+.card-text-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--orange-color);
+}
+
+.card-text-text1{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--title-text-color);
+}
+
+.card-text-text2{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.card-text-text3{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--decription-text-color);
+}
+
+.testimonial__card-arrowleft{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: var(--while-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -35px;
+}
+
+.card-arrow-link{
+    text-decoration: none;
+}
+
+.arrow-link-icon{
+    font-size: 30px;
+    color: #000;
+}
+
+.testimonial__card-arrowright{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: var(--while-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -35px;
 }
