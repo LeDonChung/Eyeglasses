@@ -64,6 +64,16 @@ html {
     width: 50%;
 }
 
+.grid__column-5{
+    padding: 0 15px;
+    width: 41.67%;
+}
+
+.grid__column-7{
+    padding: 0 15px;
+    width: 58.33%;
+}
+
 /*Thanh ngăn cách*/
 .seperate {
     width: 100%;
@@ -142,7 +152,7 @@ html {
 
 .hero {
     background-color: var(--while-color);
-    
+    margin-bottom: 65px;
 }
 
 .hero-main {
@@ -172,7 +182,7 @@ html {
 
 /*Form*/
 .form {
-
+    margin-bottom: 65px;
 }
 
 .form-content {
@@ -583,7 +593,8 @@ html {
 /* Testimonial */
 .testimonial{
     height: 436px;
-    padding-top: 65px;
+    margin-top: 65px;
+    margin-bottom: 65px;
 }
 
 .testimonial__item{
