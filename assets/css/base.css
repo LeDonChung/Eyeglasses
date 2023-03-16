@@ -57,8 +57,14 @@ html {
 
 .grid__column-4 {
     padding: 0 15px;
-    width: 33.33333333333333%;
+    width: 33.33%;
 }
+
+.grid__column-8{
+    padding: 0 15px;
+    width: 66.67%;
+}
+
 .grid__column-6-2{
     padding: 0 15px;
     width: 50%;
