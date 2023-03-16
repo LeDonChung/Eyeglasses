@@ -25,61 +25,77 @@
 </head>
 <body>
     <div class="app">
+
         <!--Start Navbar-->
-        <div class="navbar">
-            <div class="grid">
-                <!--Brand-->
+        <div class="grid">
+            <div class="navbar">
                 <div class="navbar__brand">
-                    <h1 class="brand-title">Eya Glasses</h1>
-                    <ul class="brand-list">
-                        <li class="brand-list-item">
-                            <i class="fa-sharp fa-solid fa-phone logo-icon"></i>
-                            Call Center
-                        </li>
-
-                        <li class="brand-list-item">
-                            <i class="fa-solid fa-truck-fast logo-icon"></i>
-                            Shipping & Returns
-                        </li>
-                    </ul>
-                </div>
-
-                <!--Search-->
-                <div class="navbar__container">
-                    <ul class="container-categories">
-                        <li class="container-categories-item">Shop</li>
-                        <li class="container-categories-item">Promo</li>
-                        <li class="container-categories-item">About</li>
-                        <li class="container-categories-item">Blog</li>
-                    </ul>
-
-                    <div class="container-search">
-                        <input type="text" placeholder="Search what you need" id="container-search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="navbar__brand-title">
+                        <h1 class="brand-title-text"><b>Eya Glasses</b></h1>
                     </div>
 
-                    <ul class="container-list">
-                        <li class="container-list-item">
-                            <i class="fa-regular fa-heart"></i>
-                        </li>
+                    <div class="navbar__brand-phoneship">
+                        <ul class="brand-phoneship-list">
+                            <li class="phoneship-list-item">
+                                <i class="fa-sharp fa-solid fa-phone logo-icon phoneship-list-item-icon"></i>
+                                <b>Call Center</b>
+                            </li>
 
-                        <li class="container-list-item">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </li>
-
-                        <li class="container-list-item">
-                            <i class="fa-solid fa-user"></i>
-                        </li>
-
-                        <li class="container-list-item">
-                            <i class="fa-regular fa-bell"></i>
-                        </li>
-                        
-                    </ul>
+                            <li class="phoneship-list-item">
+                                <i class="fa-solid fa-truck-fast logo-icon phoneship-list-item-icon"></i>
+                                <b>Shipping & Returns</b>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
+                <div class="navbar__catesearch">
+                    <div class="navbar__catesearch-category">
+                        <ul class="catesearch-category-list">
+                            <li class="category-list-item">
+                                <a href="#" class="category-list-item-link">Shop</a>
+                            </li>
+
+                            <li class="category-list-item">
+                                <a href="#" class="category-list-item-link">Promo</a>
+                            </li>
+
+                            <li class="category-list-item">
+                                <a href="#" class="category-list-item-link">About</a>
+                            </li>
+
+                            <li class="category-list-item">
+                                <a href="#" class="category-list-item-link">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="navbar__catesearch-search">
+                        <input type="text"  class="category-search-input" placeholder="Search what you need ">
+                        <i class="fa-solid fa-magnifying-glass category-search-icon"></i>
+                    </div>
+
+                    <div class="navbar__catesearch-menu">
+                        <ul class="catesearch-list">
+                            <li class="catesearch-list-item">
+                                <a href="#" class="catesearch-list-item-link"><i class="fa-regular fa-heart catesearch-list-item-icon"></i></a>
+                            </li>
+
+                            <li class="catesearch-list-item">
+                                <a href="#" class="catesearch-list-item-link"><i class="fa-solid fa-cart-shopping catesearch-list-item-icon"></i></a>
+                            </li>
+
+                            <li class="catesearch-list-item">
+                                <a href="#" class="catesearch-list-item-link"><i class="fa-solid fa-user catesearch-list-item-icon"></i></a>
+                            </li>
+
+                            <li class="catesearch-list-item">
+                                <a href="#" class="catesearch-list-item-link"><i class="fa-regular fa-bell catesearch-list-item-icon"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        
         </div>
         <!--End Navbar-->
 
@@ -206,7 +222,100 @@
         </div>
         <!--End Categories Shop-->
 
+        <div class="seperate"></div>
+
         <!--Start Flash Sale-->
+        <div class="flash-sale">
+            <div class="flash-container">
+                <h1 class="flash__title">Top Items</h1>
+                <p class="flash__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                </p>
+                <div class="flash__slides">
+                    <div class="flash__slides-list">
+                        <div class="flash__slides-item first">
+                            <div class="flash__slides-item__img">
+                            </div>
+                            <div class="flash__slides-item__content">
+                                <h3 class="flash__slides-item__title">Tracksuit Hyped</h3>
+                                <p class="flash__slides-item__category">Apple Cherry</p>
+                                <div class="flash__slides-item__prices">
+                                    <span class="flash__slides-item__price-new">$384</span>
+                                    <span class="flash__slides-item__price-old">$454</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flash__slides-item">
+                            <div class="flash__slides-item__img">
+                            </div>
+                            <div class="flash__slides-item__content">
+                                <h3 class="flash__slides-item__title">Tracksuit Hyped</h3>
+                                <p class="flash__slides-item__category">Apple Cherry</p>
+                                <div class="flash__slides-item__prices">
+                                    <span class="flash__slides-item__price-new">$384</span>
+                                    <span class="flash__slides-item__price-old">$454</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flash__slides-item">
+                            <div class="flash__slides-item__img">
+                            </div>
+                            <div class="flash__slides-item__content">
+                                <h3 class="flash__slides-item__title">Tracksuit Hyped</h3>
+                                <p class="flash__slides-item__category">Apple Cherry</p>
+                                <div class="flash__slides-item__prices">
+                                    <span class="flash__slides-item__price-new">$384</span>
+                                    <span class="flash__slides-item__price-old">$454</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flash__slides-item">
+                            <div class="flash__slides-item__img">
+                            </div>
+                            <div class="flash__slides-item__content">
+                                <h3 class="flash__slides-item__title">Tracksuit Hyped</h3>
+                                <p class="flash__slides-item__category">Apple Cherry</p>
+                                <div class="flash__slides-item__prices">
+                                    <span class="flash__slides-item__price-new">$384</span>
+                                    <span class="flash__slides-item__price-old">$454</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flash__slides-item">
+                            <div class="flash__slides-item__img">
+                            </div>
+                            <div class="flash__slides-item__content">
+                                <h3 class="flash__slides-item__title">Tracksuit Hyped</h3>
+                                <p class="flash__slides-item__category">Apple Cherry</p>
+                                <div class="flash__slides-item__prices">
+                                    <span class="flash__slides-item__price-new">$384</span>
+                                    <span class="flash__slides-item__price-old">$454</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flash__slides-item">
+                            <div class="flash__slides-item__img">
+                            </div>
+                            <div class="flash__slides-item__content">
+                                <h3 class="flash__slides-item__title">Tracksuit Hyped</h3>
+                                <p class="flash__slides-item__category">Apple Cherry</p>
+                                <div class="flash__slides-item__prices">
+                                    <span class="flash__slides-item__price-new">$384</span>
+                                    <span class="flash__slides-item__price-old">$454</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flash__slides-radio">
+                        <input type="radio" name="radio-btn" id="radio1" class="radio-btn">
+                        <input type="radio" name="radio-btn" id="radio2" class="radio-btn">
+                        <input type="radio" name="radio-btn" id="radio3" class="radio-btn">
+                        <input type="radio" name="radio-btn" id="radio4" class="radio-btn">
+                        <input type="radio" name="radio-btn" id="radio5" class="radio-btn">
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--End Flash Sale-->
         
         <div class="seperate"></div>
@@ -229,8 +338,8 @@
                 </div>
             </div>
         </div>
-        
         <!--End Get in Touch-->
+
         <div class="seperate"></div>
         
         <!--Start Achievement-->
@@ -263,10 +372,44 @@
         </div>
         <!--End Achievement-->
 
-        <!--Start Testimonial-->
-        <!--End Testimonial-->
-        
         <div class="seperate"></div>
+
+        <!--Start Testimonial-->
+        <div class="testimonial">
+            <div class="grid testimonial__item">
+                <div class="testimonial__card">
+                    <div class="testimonial__card-imagePlaceholder"> </div>
+
+                    <div class="testimonial__card-text">
+                        <p class="card-text-title">Good Seller!</p>
+                        <p class="card-text-text1">I am very happy with the services provided, it is very helpful, starting
+                            <br>from the insight that the company gave from the start that I did not
+                            <br>understand what it was so I got knowledge and made my website
+                            <br>look better
+                        </p>
+                        <p class="card-text-text2">Anna Saraspova</p>
+                        <p class="card-text-text3">Your Beloved Buyer</p>
+                    </div>
+
+                    <div class="testimonial__card-arrowleft">
+                        <a href="#" class="card-arrow-link">
+                            <div class="arrow-link-icon"> < </div>
+                        </a>
+                    </div>
+
+                    <div class="testimonial__card-arrowright">
+                        <a href="#" class="card-arrow-link">
+                            <div class="arrow-link-icon"> > </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Testimonial-->
+
+        <div class="seperate"></div>
+        <div class="seperate"></div>
+
         <!--Start Blogs-->
         <div class="blog">
             <div class="grid">
@@ -349,8 +492,8 @@
                 </div>
             </div>
         </div>
-
         <!--End Form-->
+        
         <div class="seperate"></div>
         
         <!--Start Fotter-->

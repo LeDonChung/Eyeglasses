@@ -89,7 +89,7 @@ html {
     border: none;
     color: var(--while-color);
     cursor: pointer;
-    transition: var(--smooth);
+    transition: var(--smooth);  
 }
 
 .btn:hover {
