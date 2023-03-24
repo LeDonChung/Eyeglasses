@@ -22,7 +22,9 @@
     justify-content: space-between;
 }
 
-.menu-list-item{
+.menu-list-item:hover .menu-list-item-link{
+    color: var(--orange-color);
+    transition: var(--smooth);
 
 }
 
@@ -239,8 +241,7 @@
 }
 
 .deleted-icon{
-    width: 18px;
-    height: 20px;
+    font-size: 18px;
     color: var(--orange-color);
 }
 
@@ -257,15 +258,12 @@
 }
 
 .wishlist-text{
-    width: 63px;
-    height: 20px;
     font-size: 16px;
     font-weight: 700;
 }
 
 .wishlist-icon{
-    width: 18px;
-    height: 20px;
+    font-size: 20px;
     color: var(--orange-color);
 }
 
@@ -311,6 +309,8 @@
 }
 
 .input-text{
+    width: 100%;
+    outline: none;
     border: none;
     margin-left: 15px;
 }
