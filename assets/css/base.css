@@ -245,34 +245,33 @@ html {
 }
 
 
-
-
-
-
-
-
-
-
-
 /*Navbar*/
-
-.navbar{
+.navbar {
     width: 100%;
-    height: 180px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.navbar__brand{
+.brand-wrapper {
     width: 100%;
-    height: 90px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: var(--while-color);
 }
+
+.brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 93px;
+}
+
+.header-wrapper {
+    margin: 28px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .navbar__brand-title{
     font-size: 39px;
@@ -285,19 +284,29 @@ html {
 
 .navbar__brand-phoneship{
     display: flex;
-    width: 370px;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .brand-phoneship-list{
     display: flex;
-    width: 370px;
     justify-content: space-between;
 }
 
 .phoneship-list-item{
     color: var(--text-color);
+    margin-right: 20px;
+    cursor: pointer;
+    transition: var(--smooth);
+}
+.phoneship-list-item:hover{
+    color: var(--orange-color);
+    transition: var(--smooth);
+}
+.phoneship-list-item i:hover{
+    color: var(--orange-color);
+    transition: var(--smooth);
 }
 
 .phoneship-list-item-icon{
@@ -326,9 +335,14 @@ html {
 }
 
 .category-list-item{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
+    margin: 20px 0;
+    transition: var(--smooth);
+}
+
+.category-list-item:hover a, .catesearch-list-item-link:hover{
+    color: var(--orange-color);
+    transition: var(--smooth);
+
 }
 
 .category-list-item-link{
@@ -337,7 +351,8 @@ html {
 }
 
 .navbar__catesearch-search{
-    width: 480px;
+    flex: 1;
+    margin: 0 94px;
     height: 55px;
     display: flex;
     justify-content: space-between;
@@ -347,6 +362,7 @@ html {
 }
 
 .category-search-input{
+    width: 100%;
     border: none;
     outline: none;
     background-color: var(--while-color);
@@ -380,7 +396,7 @@ html {
 }
 
 .catesearch-list-item-icon{
-
+    font-size: 24px;
 }
 
 
