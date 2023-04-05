@@ -98,24 +98,31 @@
                 <h1 class="sales__title">
                     Sales Information
                 </h1>
-                <div class="sales__find">
-                    <div class="find-item">
-                        <label for="customer" class="find-item__title">Customer</label>
-                        <input type="text" class="find-item__input" placeholder="Enter Costumer Name" id="customer">
+                <form id="form-find" class="form" action="" method="get">
+                    <div class="sales__find">
+                        <div class="find-item">
+                            <label for="customer" class="find-item__title">Customer</label>
+                            <input type="text" class="find-item__input" placeholder="Enter Costumer Name" id="customer">
+                            <span class="form-message"></span>
+                        </div> 
+                        <div class="find-item">
+                            <label for="invoice" class="find-item__title">Invoice ID</label>
+                            <input type="text" class="find-item__input" placeholder="Enter Invoice ID" id="invoice">
+                            <span class="form-message"></span>
+                        </div>
+                        <div class="find-item">
+                            <label for="start-date" class="find-item__title">Start Date</label>
+                            <input type="text" class="find-item__input" placeholder="Start Date" id="start-date">
+                            <span class="form-message"></span>
+                        </div>
+                        <div class="find-item">
+                            <label for="end-date" class="find-item__title">End Date</label>
+                            <input type="text" class="find-item__input" placeholder="End Date" id="end-date">
+                            <span class="form-message"></span>
+                        </div>
+                        
                     </div>
-                    <div class="find-item">
-                        <label for="invoice" class="find-item__title">Invoice ID</label>
-                        <input type="text" class="find-item__input" placeholder="Enter Invoice ID" id="invoice">
-                    </div>
-                    <div class="find-item">
-                        <label for="start-date" class="find-item__title">Start Date</label>
-                        <input type="text" class="find-item__input" placeholder="Start Date" id="start-date">
-                    </div>
-                    <div class="find-item">
-                        <label for="end-date" class="find-item__title">End Date</label>
-                        <input type="text" class="find-item__input" placeholder="End Date" id="end-date">
-                    </div>
-                </div>
+                </form>
             </div>
             <div class="sales-person">
                 <table class="table">
@@ -227,5 +234,6 @@
         </div>
         
     </div>
+    <script src="./assets/js/validationadmin.js"></script>
 </body>
 </html>
