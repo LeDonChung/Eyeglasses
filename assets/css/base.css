@@ -707,3 +707,15 @@ html {
     position: absolute;
     right: -35px;
 }
+
+/*Validation*/
+.error input{
+    border: 1px solid red;
+}
+.success input{
+    border: none;
+}
+.form-message{
+    margin-top: 10px;
+    color: red;
+}
