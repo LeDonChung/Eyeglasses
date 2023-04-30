@@ -35,13 +35,14 @@
 
 .details-img__main {
     width: 100%;
-    height: 552px;
+    height: 40%;
     border-radius: 8px;
     background-color: #E2E2EA;
 
 }
 
 .details-img__other {
+    margin-top: 100px;
     display: flex;
     height: calc(739px - 552px);
 
@@ -50,8 +51,8 @@
 .details-img__other-item {
     background-color: #E2E2EA;
     flex: 1;
-    height: 100%;
-    margin: 10px 5px 5px 5px;
+    height: 50%;
+    margin: auto 5px;
     border-radius: 8px;
 }
 
@@ -126,7 +127,14 @@
     font-size: 16px;
     font-weight: 600;
     color: var(--orange-color);
+    cursor: pointer;
+    transition: var(--smooth);
 }
+.info__qty-add-note:hover {
+    opacity: 0.6;
+    transition: var(--smooth);
+}
+
 
 .info-subtotal {
     display: flex;
