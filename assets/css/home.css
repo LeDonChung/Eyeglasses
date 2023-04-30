@@ -194,5 +194,8 @@
     .touch-content__description {
         text-align: center;
     }
-    
+    /*Start Blogs*/
+    .our-articles__title {
+        font-size: 30px;
+    }
 } 
