@@ -20,12 +20,15 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/admin.css">
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
 </head>
 <body>
     <div class="app">
         <!--Start Sidebar-->
-        <div class="left-sidebar">
-            <h1 class="sidebar-brand">Dealarz.</h1>
+        <div class="left-sidebar"> 
+            <h1 class="sidebar-brand">Eya Glasses
+            </h1>
+            <i class="close fa-solid fa-xmark"></i>
             <ul class="sidebar-list">
                 <li class="sidebar-item sidebar-item--active">
                     <a href="#" class="sidebar-item__link">
@@ -76,6 +79,9 @@
         <!--Start Topbar-->
         <div class="topbar">
             <div class="navbar-collapse">
+                <div class="menu">
+                    <i menu-icon class="fa-solid fa-bars"></i>
+                </div>
                 <div class="collapse__search">
                     <i class="fa-solid fa-magnifying-glass collapse__search-icon"></i>
                     <input type="text" placeholder="Search" class="collapse__search-input">
@@ -86,7 +92,7 @@
                         <i class="fa-regular fa-bell profile-notify-icon"></i>
                     </div>
                     <div class="profile-user">
-                        <img src="https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/285256132_1338087313339572_3549676244412120617_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=PcYObH6TmdoAX8t1dMX&_nc_ht=scontent.fsgn5-9.fna&oh=00_AfAvnQLYCn8eBwelDpTlqrfwZBUOYeaonSBFXhhG1kbD2A&oe=64161ADA" alt="" class="">
+                        <img style="width: 100%;" src="https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/340297637_913234096596093_1994283190320924295_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=l3G4UtQOhi4AX9sMcRD&_nc_ht=scontent.fsgn5-9.fna&oh=00_AfBorTT4UD1iC8_ur59IfDQyrrXN1o1TgWE4f7Cr7DhCZw&oe=64541683" alt="" class="">
                     </div>
                 </div>
             </div>
@@ -99,26 +105,26 @@
                     Sales Information
                 </h1>
                 <form id="form-find" class="form" action="" method="get">
-                    <div class="sales__find">
-                        <div class="find-item">
+                    <div class="row">
+                        <div class="col l-3 m-6 c-12 find-item">
                             <label for="customer" class="find-item__title">Customer</label>
                             <input type="text" class="find-item__input" placeholder="Enter Costumer Name" id="customer">
-                            <span class="form-message"></span>
+                            <p class="form-message"></p>
                         </div> 
-                        <div class="find-item">
+                        <div class="col l-3 m-6 c-12 find-item">
                             <label for="invoice" class="find-item__title">Invoice ID</label>
                             <input type="text" class="find-item__input" placeholder="Enter Invoice ID" id="invoice">
-                            <span class="form-message"></span>
+                            <p class="form-message"></p>
                         </div>
-                        <div class="find-item">
+                        <div class="col l-3 m-6 c-12 find-item">
                             <label for="start-date" class="find-item__title">Start Date</label>
                             <input type="text" class="find-item__input" placeholder="Start Date" id="start-date">
-                            <span class="form-message"></span>
+                            <p class="form-message"></p>
                         </div>
-                        <div class="find-item">
+                        <div class="col l-3 m-6 c-12 find-item">
                             <label for="end-date" class="find-item__title">End Date</label>
                             <input type="text" class="find-item__input" placeholder="End Date" id="end-date">
-                            <span class="form-message"></span>
+                            <p class="form-message"></p>
                         </div>
                         
                     </div>
@@ -232,8 +238,8 @@
                   </table>
             </div>
         </div>
-        
     </div>
     <script src="./assets/js/validationadmin.js"></script>
+    <script src="./assets/js/admin.js"></script>
 </body>
 </html>
