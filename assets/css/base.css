@@ -285,6 +285,11 @@ html {
 
 .brand-title-text{
     font-weight: 600;
+
+}
+.brand-title-text a{
+    color: var(--orange-color);
+    text-decoration: none;
 }
 
 .navbar__brand-phoneship{
